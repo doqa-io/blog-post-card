@@ -1,10 +1,38 @@
 .blog-post-card {
-  background-color: grey;
+  background-color: lightblue;
   border-radius: 10px;
-  width: 100px;
+  width: 200px;
   text-align: center;
 }
 
 .post-img {
     width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-title {
+  color: darkgrey;
+  margin: 5px;
+}
+
+.post-excerpt {
+  color: grey;
+  margin: 10px;
+}
+
+.read-more {
+  color: navy;
+  background-color: darkgrey;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10%;
+  display: inline-block;
+}
+
+.read-more:hover {
+  background-color: pink; 
 }
